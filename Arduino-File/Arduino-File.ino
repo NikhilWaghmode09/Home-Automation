@@ -109,9 +109,9 @@ void MQTT_connect();
 Servo myservo;
 void setup() {
   Serial.begin(115200);
-
+//delay is added.
   delay(10);
-
+//pinmodes are declared 
   pinMode(buzzer, OUTPUT);
   pinMode(Relay1, OUTPUT);
   pinMode(Relay2, OUTPUT);
